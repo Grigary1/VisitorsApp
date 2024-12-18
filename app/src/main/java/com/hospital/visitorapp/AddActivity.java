@@ -20,6 +20,7 @@ public class AddActivity extends AppCompatActivity {
     String res,fname,lname,purpose,whom;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_add);

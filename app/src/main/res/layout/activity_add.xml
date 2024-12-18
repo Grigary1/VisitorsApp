@@ -1,10 +1,12 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:gravity="center|start"
     android:padding="50px"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
+        android:textColor="@color/black"
         android:text="Enter First Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -13,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="@color/black"
         android:text="Enter Last Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -21,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="@color/black"
         android:text="Purpose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -29,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="@color/black"
         android:text="Whom to meet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -37,11 +42,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:textColor="@color/white"
         android:id="@+id/submitbtn"
         android:text="Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
+        android:textColor="@color/white"
         android:text="Backto Main"
         android:id="@+id/backtomain"
         android:layout_width="wrap_content"
